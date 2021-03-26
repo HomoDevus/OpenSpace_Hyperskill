@@ -60,13 +60,13 @@ body {
     border-bottom: 0;
 }
 
-.password-area label {
+#password-form label {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.password-area input {
+#password-form input {
     border-radius: 10px;
 }
 
@@ -110,4 +110,10 @@ body {
     border: none;
     border-radius: 10px;
     width: 100%;
+}
+
+.lunch-button:disabled,
+.lunch-button[disabled]{
+    background-color: #47557b;
+    cursor: auto;
 }

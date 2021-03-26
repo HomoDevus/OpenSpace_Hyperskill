@@ -14,10 +14,10 @@
         </div>
         <div class="control-panel">
             <div class="control-panel__inner">
-                <form class="password-area">
+                <form id="password-form" method="post" name="password-entry">
                     <label>
                         <input type="password" id="password" class="text-area" placeholder="Enter password">
-                        <input type="submit" id="password-submit" class="button" value="OK">
+                        <input type="button" id="password-submit" class="button" value="Enter" onclick="checkPassword(password)">
                     </label>
                 </form>
                 <div class="check-buttons">
@@ -35,10 +35,11 @@
                     <label><input type="range"></label>
                     <label><input type="range"></label>
                 </div>
-                <input type="submit" class="lunch-button button" value="launch">
-                <a></a>
+                <input type="button" class="lunch-button button" value="launch">
             </div>
         </div>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
